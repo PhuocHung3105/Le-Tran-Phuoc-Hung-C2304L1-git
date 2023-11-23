@@ -13,3 +13,10 @@ let arr = [5, 1, 2, 2, 7];
 for ( let i = 0; i < arr.length; i++){
     console.log(arr[i]);
 }
+
+//cau 4: tinh tong phan tu trong mang
+let sum = 0;
+for (let i = 0; i< arr.length; i++){
+    sum += arr[i];
+}
+console.log("tong cac phan tu trong mang la: " +sum);
